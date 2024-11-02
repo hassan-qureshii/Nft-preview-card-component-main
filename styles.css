@@ -1,0 +1,107 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: hsl(217, 54%, 11%);
+  }
+
+  nav {
+    border: 2px solid hsl(216, 50%, 16%);
+    background-color: hsl(216, 50%, 16%);
+    margin: 100px 300px;
+  }
+
+  .image {
+    text-align: center;
+  }
+
+  .image img {
+    width: 90%;
+    padding: 20px 0px;
+  }
+
+  .heading {
+    color: hsl(0, 0%, 100%);
+    padding: 10px 0px 10px 30px;
+  }
+
+  .heading h1 {
+    font-weight: bolder;
+    font-size: 25px;
+  }
+
+  .heading p {
+    color: hsl(215, 51%, 70%);
+    padding: 10px 0px;
+  }
+
+  header {
+    padding: 0px 30px;
+    display:flex;
+    justify-content: space-between;
+  }
+
+
+
+  .img1 p {
+    color: hsl(178, 100%, 50%);
+  }
+
+  .img2 {
+    padding-bottom: 20px;
+  }
+
+  .img2 p {
+    color: hsl(215, 51%, 70%);
+  }
+
+  hr {
+    color: hsl(215, 51%, 70%);
+  }
+
+  .profile {
+    padding: 10px 0px 10px 30px;
+  }
+
+  .profile img {
+    width: 70px;
+    border: 2px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+  }
+
+  .profile p {
+    color: hsl(0, 0%, 100%);
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 30px;
+  }
+
+  .profile p b {
+    color: hsl(215, 51%, 70%);
+  }
+
+  /* MEDIA QUERIES OF TABLET SCREEN*/
+
+  @media (max-width: 991px) {
+    nav {
+      margin: 100px 150px;
+    }
+  }
+
+ /* MEDIA QUERIES OF MOBILE SCREEN */
+  @media (max-width: 786px) {
+    nav {
+      margin: 100px 50px;
+    }
+
+    .heading {
+      padding: 10px 0px 10px 20px;
+    }
+
+    .profile {
+      padding: 10px 0px 10px 20px;
+    }
+  }

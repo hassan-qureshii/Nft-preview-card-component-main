@@ -3,24 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
 
-    <title>Frontend Mentor | NFT preview card component</title>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-</head>
-<body>
-    <nav>
+    <title>NFT Preview Card Component</title>
+  </head>
+  <body>
+    <nav class="card">
       <div class="image">
-        <img src="image-equilibrium.jpg" alt="image-equilibrium">
+        <img src="image-equilibrium.jpg" alt="Equilibrium Image" class="nft-img" />
       </div>
 
       <div class="heading">
@@ -28,38 +30,37 @@
         <p>Our Equilibrium collection promotes balance and calm.</p>
       </div>
 
-  <header>
-    <div class="main-header">
-        <div class="img">
-         <img src="icon-ethereum.svg" alt="icon-ethereum">
+      <header>
+        <div class="main-header">
+          <div class="img">
+            <img src="icon-ethereum.svg" alt="icon-ethereum" />
+          </div>
+          <div class="para">
+            <p>0.041 ETH</p>
+          </div>
         </div>
 
-        <div class="para">
-          <p>0.041 ETH</p>
+        <div class="main-header time">
+          <div class="img">
+            <img src="icon-clock.svg" alt="icon-clock" />
+          </div>
+          <div class="para">
+            <p>3 days left</p>
+          </div>
         </div>
-    </div>
+      </header>
 
-    <div class="main-header">
-        <div class="img">
-          <img src="icon-clock.svg" alt="icon-clock">
-        </div>
-
-        <div class="para">
-          <p>3 days left</p>
-        </div>
-    </div>
-  </header>
       <hr />
 
-    <div class="profile">
+      <div class="profile">
         <div class="profile-img">
-          <img src="image-avatar.png" alt="image-avatar">
+          <img src="image-avatar.png" alt="Profile Avatar" />
         </div>
 
         <div class="profile-par">
           <p><b>Creation of</b> Jules Wyvern</p>
         </div>
-    </div>
-</nav>
-</body>
+      </div>
+    </nav>
+  </body>
 </html>

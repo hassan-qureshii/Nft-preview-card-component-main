@@ -14,7 +14,6 @@ body {
   transition: background 0.5s ease;
 }
 
-/* Card Container */
 .card {
   width: 30%;
   border-radius: 20px;
@@ -31,7 +30,6 @@ body {
   box-shadow: 0 20px 35px rgba(0, 0, 0, 0.5);
 }
 
-/* Image Section */
 .image {
   width: 100%;
   text-align: center;
@@ -51,7 +49,6 @@ body {
   opacity: 0.9;
 }
 
-/* Heading */
 .heading {
   color: hsl(0, 0%, 100%);
   padding: 0 15px 0 25px;
@@ -77,7 +74,6 @@ body {
   font-size: 15px;
 }
 
-/* Header */
 header {
   padding: 15px 25px;
   display: flex;
@@ -102,7 +98,6 @@ header {
   font-size: 14px;
 }
 
-/* Profile Section */
 .profile {
   display: flex;
   align-items: center;
